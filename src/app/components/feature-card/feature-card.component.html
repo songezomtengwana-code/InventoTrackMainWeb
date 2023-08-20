@@ -1,0 +1,14 @@
+<div class="display" *ngFor="let feature of features">
+    <div class="display-container">
+        <div class="display-container-key">{{ feature.key }}</div>
+        <div class="display-container-date">
+            {{ feature.date }}
+        </div>
+        <div class="display-container-title">
+            {{ feature.title }}
+        </div>
+    </div>
+    <div class="display-icon">
+        <i class="bi bi-chevron-right"></i>
+    </div>
+</div>

@@ -1,0 +1,144 @@
+<div class="app">
+    <div class="app-body">
+      <section class="app-body-section" data-scroll-container>
+        <div class="landing">
+          <div class="landing-text">
+            <div class="landing-text-navigation">
+              <div class="landing-text-navigation-section" *ngFor="let item of navigationProps">
+                <div class="navigation-section-value">{{ item.value }}</div>
+                <div class="navigation-section-key">{{ item.key }}</div>
+              </div>
+            </div>
+            <div class="landint-title">Invento<span style="color: var(--lordicon);">Track</span></div>
+            <div class="landing-sub">{{ subtitle }}</div>
+          </div>
+          <div class="landing-image">
+            <img src="./../assets/images/miobile-preview.png" alt="" class="landing-image-img">
+          </div>
+          <i class="fa-duotone fa-angles-down fa-bounce down-iocn"></i>
+        </div>
+        <div class="about" id="about">
+          <div class="about-sub">Manage Online, from any device</div>
+          <div class="about-title">A inventory mangement solution that lets you manage stock with ease</div>
+          <app-about-card></app-about-card>
+        </div>
+        <div class="features">
+          <div class="features-grid">
+            <div class="features-grid-item">
+              <div class="badge">
+                Innovation
+              </div>
+              <div class="item-title">Features</div>
+              <div class="item-title-sub">
+                Stock And Inventory Mangement
+              </div>
+              <div class="item-list">
+                <div class="item-list-value">Stock Tracking</div>
+                <div class="item-list-value">Map Data and Location</div>
+              </div>
+              <div class="item-title-sub">
+                Stock And Inventory Mangement
+              </div>
+              <div class="item-list">
+                <div class="item-list-value">Stock Tracking</div>
+                <div class="item-list-value">Map Data and Location</div>
+              </div>
+            </div>
+            <div class="features-grid-item">
+              <div class="item-image">
+                <div class="item-image-mask"></div>
+              </div>
+            </div>
+            <div class="features-grid-item">
+              <div class="item-prompts">
+                <div class="prompts-displayer" *ngFor="let prompt of features">
+                  <div class="prompts-header">
+                    <div class="prompts-displayer-title">{{ prompt.key }}</div>
+                  </div>
+                  <div class="prompts-displayer-line"></div>
+                  <div class="prompts-displayer-value">
+                    {{ prompt.value }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="setion-left">
+            <div class="badge">
+              Growth
+            </div>
+            <div class="section-left-title">
+              Transform your business
+            </div>
+            <div class="section-left-text">
+              Leverage our next-generation technology to boost your operational efficiency by leaps and bounds. Witness
+              the astonishing difference our affordable inventory management service paired with our ingenious mobile
+              application can make.
+            </div>
+            <div class="buttons">
+              <a href="#" class="button-invert">
+                Sign up with us <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="section-right">
+            <img src="../assets/gifs/globe.gif" alt="" srcset="">
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="footer-container">
+            <div class="footer-container-setion">
+              <div class="footer-container-section-title">
+                Product
+              </div>
+              <a routerLink="/features" class="footer-container-section-route">
+                Features
+              </a>
+              <a href="#" class="footer-container-section-route">
+                Pricing
+              </a>
+              <a href="#" class="footer-container-section-route">
+                Support
+              </a>
+            </div>
+            <div class="footer-container-setion">
+              <div class="footer-container-section-title">
+                Resouces
+              </div>
+              <a routerLink="help" class="footer-container-section-route">
+                Help
+              </a>
+              <a href="#" class="footer-container-section-route">
+                FAQs
+              </a>
+              <a href="#" class="footer-container-section-route">
+                Guides
+              </a>
+            </div>
+            <div class="footer-container-setion">
+              <div class="footer-container-section-title">
+                Company
+              </div>
+              <a href="#" class="footer-container-section-route">
+                About
+              </a>
+              <a href="#" class="footer-container-section-route">
+                Blog
+              </a>
+              <div class="icons">
+                <a href="" class="bi bi-envelope"></a>
+                <a href="" class="bi bi-twitter"></a>
+                <a href="" class="bi bi-facebook"></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-icon">
+            <img src="../assets/images/logo_dark.png" alt="" class="footer-icon-img">
+          </div>
+        </footer>
+        <span class="signiture">A ZOFS Product 2023 © InventoTrack</span>
+      </section>
+    </div>
+  </div>

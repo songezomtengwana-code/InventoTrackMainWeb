@@ -1,0 +1,50 @@
+.features {
+  padding: 5vw 10vw;
+}
+
+section.features-container {
+  display: flex;
+  flex-flow: column;
+  gap: 2.5rem;
+}
+
+.display {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  background: var(--blueywhiteop);
+  border-radius: 1rem;
+  gap: 0.5rem;
+  display: flex;
+  border: 2.5px solid var(--lordicon);
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: transparent;
+    transition: 1s;
+  }
+}
+
+.display-container-date {
+  color: var(--lordicon);
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.display-container-title {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.display-icon i {
+  font-size: 2rem;
+  color: var(--lordicon);
+  font-weight: bold;
+}
+
+.display-container-key {
+    color: var(--bs-gray);
+    margin-bottom: .5rem;
+    font-size: .75rem;
+}

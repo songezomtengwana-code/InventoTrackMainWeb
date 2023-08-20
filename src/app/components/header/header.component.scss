@@ -1,0 +1,21 @@
+.header {
+  height: 60vh;
+  background-image: url("https://i.ibb.co/QpC44zW/1000-F-129713457-Aw-Hj-Z1g-B47n-Uj-TVJf-Wd3d-GWdb-AOii-B5i.jpg");
+  background-size: cover;
+  background-origin: content-box;
+  background-position: center;
+}
+
+.header-container {
+  height: 100%;
+  background: linear-gradient(4deg, black, #00000085);
+  display: grid;
+  align-items: end;
+}
+
+.header-container-title {
+  margin: 2.5rem 10vw;
+  font-size: 7.5rem;
+  font-weight: bold;
+  color: white;
+}

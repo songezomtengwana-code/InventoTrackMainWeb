@@ -1,0 +1,11 @@
+<section class="displayer"  data-aos="zoom-out">
+    <div class="card" *ngFor="let item of about">
+        <div class="card-container">
+            <div class="card-container-icon">
+                <img src={{item.icon}} alt={{item.title}} srcset="" class="card-container-icon-image">
+            </div>
+            <div class="card-container-title">{{ item.title }}</div>
+            <div class="card-container-body">{{ item.body }}</div>
+        </div>
+    </div>  
+</section>
