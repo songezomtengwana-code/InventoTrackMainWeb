@@ -125,8 +125,12 @@ img.item-image-src {
 }
 
 .item-list {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   margin-bottom: 2.5rem;
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+  font-size: 1.15rem;
 }
 
 .prompts-displayer-title {
@@ -169,12 +173,15 @@ img.item-image-src {
 }
 
 .item-image-mask {
-  background-image: url(../../../assets/images/splash.png);
-  height: 65vh;
-  width: 15vw;
+  background-image: url(https://i.ibb.co/mBP5KNF/dashboard.jpg);
+  height: 70vh;
+  width: 17.15vw;
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 2.5rem;
+  border: 10px solid #0e0e0e;
+  background-position: center;
+  filter: drop-shadow(3px 5px 12px black);
 }
 
 .landing-image::after {

@@ -1,0 +1,14 @@
+<div class="create">
+    <div class="create-container">
+        <div class="container-options">
+            <a [href]="option.url" class="container-options-button" *ngFor="let option of authOptions">
+                <div class="container-options-button-icon">
+                    <i [ngClass]="option.icon"></i>
+                </div>
+                <div class="container-options-button-text">
+                    Continue with {{ option.name }}
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

@@ -10,6 +10,7 @@ import { WelcomeComponent } from './views/welcome/welcome.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FeatureCardComponent } from './components/feature-card/feature-card.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
+import { CreateAccountComponent } from './views/create-account/create-account.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavigationComponent } from './components/navigation/navigation.componen
     WelcomeComponent,
     HeaderComponent,
     FeatureCardComponent,
-    NavigationComponent
+    NavigationComponent,
+    CreateAccountComponent
   ],
   imports: [
     BrowserModule,

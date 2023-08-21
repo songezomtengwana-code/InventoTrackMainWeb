@@ -23,11 +23,11 @@ img.navigation-container-icon {
 
 .navigation-container-links {
   display: flex;
-  gap: 2rem;
-  background: #ffffff;
-  padding: 1rem 2.5rem;
-  border-radius: 4rem;
-  border: 2px solid var(--lordicon);
+    gap: 1rem;
+    background: #2fffc1d7;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    border: 2.5px solid transparent;
 }
 
 .navigation-container-links-route {
@@ -38,7 +38,7 @@ img.navigation-container-icon {
   display: flex;
   flex-flow: column;
   align-items: center;
-  gap: 0.5rem;
+  font-size: 1rem;
 
   &:hover {
     opacity: 0.5;
