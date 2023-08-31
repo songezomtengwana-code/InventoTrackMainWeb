@@ -1,6 +1,56 @@
 .create {
-    min-height: 100vh;
-    background-image: url(../../.././assets/images/landing.png);
-    background-position: right;
-    background-size: cover;
+  min-height: 100vh;
+  background-image: url(../../.././assets/images/landing.png);
+  background-position: right;
+  background-size: cover;
+}
+
+.create-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background: #000000d1;
+}
+
+.container-options {
+  padding: 2.5rem 2rem;
+  border-radius: 1rem;
+  background: var(--white);
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+  min-width: 15vw;
+}
+
+a.container-options-button {
+  display: flex;
+  flex-flow: row;
+  padding: 0.75rem;
+  border: 2px solid #000000f0;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.container-options-button-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: rgb(113, 104, 104);
+  border-radius: 50%;
+}
+
+img.container-option-logo {
+  height: 5vw;
+  width: 5vw;
+  margin-bottom: 1rem;
+}
+
+.container-title {
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
 }
