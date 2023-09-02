@@ -5,7 +5,7 @@
             <div class="container-title">Create Account</div>
             <a [href]="option.url" class="container-options-button" *ngFor="let option of authOptions">
                 <div class="container-options-button-icon">
-                    <i [ngClass]="option.icon"></i>
+                   <img src="https://www.svgrepo.com/show/512321/google-178.svg" alt="" srcset="" class="top-button-icon">
                 </div>
                 <div class="container-options-button-text">
                     Continue with {{ option.name }}
@@ -27,6 +27,10 @@
                 <a href="#" class="form-button">
                     Create Account
                 </a>
+                <div class="terms-and-conditions">
+                    By clicking create account you agree that you've read and agree with the <span class="anchor">terms
+                        and conditions</span> of ZOFS InventoTrack
+                </div>
             </div>
         </div>
     </div>
