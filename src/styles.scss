@@ -19,7 +19,7 @@
   --primarynavy: var(--lightnavy);
   --black: #171616;
   --white: rgb(255, 255, 255);
-  --primaryblue: rgb(0, 133, 255);
+  --primaryblue: rgb(0, 13  3, 255);
   --bg-grey: #e4e4e4bd;
   --dark: rgb(83, 85, 85);
   --green: rgb(140, 198, 63);
@@ -118,8 +118,6 @@ body {
   100% {
     opacity: 0;
     display: none;
-    -webkit-transform: translateX(-100vw);
-    transform: translateX(-100vw);
   }
 }
 
@@ -128,15 +126,13 @@ body {
     opacity: 1;
   }
 
-  90% {
+  75% {
     opacity: 0;
   }
 
   100% {
-    opacity: 0;
-    display: none;
-    -webkit-transform: translateX(-100vw);
-    transform: translateX(-100vw);
+    display: none !important;
+    transform: scale(0);
   }
 }
 
