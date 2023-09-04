@@ -26,7 +26,7 @@ export class CreateAccountComponent implements OnInit {
 
   authOptions: authenticationOptions[] = [
     {
-      name: 'Goolge',
+      name: 'Google',
       url: 'https://google.com',
       icon: 'bi bi-goolge',
     },

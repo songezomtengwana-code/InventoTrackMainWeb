@@ -19,10 +19,13 @@ section.features-container {
   border: 2.5px solid var(--lordicon);
   align-items: center;
   cursor: pointer;
+  margin-bottom: 2rem;
 
   &:hover {
     background-color: transparent;
-    transition: 1s;
+    transition: .5s;
+    border-color: transparent;
+    filter: drop-shadow(1px, 1px, 1px, 1px rgba(0,0,0,0.4));
   }
 }
 

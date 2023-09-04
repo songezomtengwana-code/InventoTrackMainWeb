@@ -25,7 +25,7 @@ const firebaseConfig = {
   messagingSenderId: '295911770194',
   appId: '1:295911770194:web:a72047af48e5d2ce1d778b',
   measurementId: 'G-Q1450FR9KM',
-};
+};  
 
 @NgModule({
   declarations: [
